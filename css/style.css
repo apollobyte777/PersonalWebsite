@@ -8,7 +8,7 @@
 }
 
 #navbarMenuToggler, #navbarMenu .nav-link {
-  color: #333;
+  background-color: white;
 }
 
 #navbarMenu .nav-link {
@@ -16,9 +16,20 @@
   font-weight: 300;
 }
 
+
+
 @media (min-width: 1200px) {
   #navbarMenu {
     display: none !important;
+  }
+}
+
+@media (max-width:968px) {
+  .picture{
+    display:none;
+  }
+  #navbar{
+    background-color: #333;
   }
 }
 
@@ -70,9 +81,7 @@ hr{
   font-family: Roboto;
 }
 
-.blurb {
-    padding-top:200px;
-  }
+
 
   .aspectRatioBox {
     padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
@@ -113,6 +122,9 @@ nav {
   overflow: hidden;
 }
 
+
+
+
 .section1 {
   padding: 16px;
 }
@@ -128,4 +140,12 @@ nav {
 }
 nav{
   z-index:1;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
